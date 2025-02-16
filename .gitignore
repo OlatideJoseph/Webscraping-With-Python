@@ -1,0 +1,4 @@
+./virenv/*
+virenv/
+/virenv/
+.env
