@@ -14,4 +14,7 @@ class WikispiderItem(scrapy.Item):
 
 class ArticlesItem(scrapy.Item):
     url = scrapy.Field()
+    title = scrapy.Field()
+    text = scrapy.Field()
+    lastUpdated = scrapy.Field()
     
